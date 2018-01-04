@@ -1,0 +1,2 @@
+# This command opens a javascript console on the ethereum live network with JSON rpc access on localhost:8545
+geth --verbosity "0" --identity "myLiveNode" --datadir "./dir" --fast --rpc --rpcaddr "localhost" --rpcport "8545" console

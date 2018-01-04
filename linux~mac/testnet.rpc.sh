@@ -1,2 +1,2 @@
-# This command opens a javascript console on the rinkeby testnet with JSON rpc access on localhost:8545
+# Opens a javascript console on the rinkeby testnet with JSON rpc access on localhost:8545
 geth --verbosity "0" --identity "myTestNode" --datadir "./dir" --rinkeby --fast --rpc --rpcaddr "localhost" --rpcport "8545" console
